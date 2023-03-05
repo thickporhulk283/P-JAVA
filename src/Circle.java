@@ -11,10 +11,5 @@ public class Circle implements IShape{
         return 3.14 *radius*radius;
     }
 
-    @Override
-
-    public double getPerimeter() {
-        return 2*radius*3.14;
-    }
     
 }

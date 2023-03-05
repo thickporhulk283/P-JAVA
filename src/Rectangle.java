@@ -14,11 +14,7 @@ public class Rectangle implements IShape {
         return length * width;
     }
 
-    @Override
-    public double getPerimeter() {
-        return 2 * (length + width);
+    public String toString() {
+        
     }
-    
-
-    
 }
